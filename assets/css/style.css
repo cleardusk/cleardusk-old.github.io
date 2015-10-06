@@ -106,7 +106,8 @@ a {
   height: 100px;
   margin: 55px auto 35px;
   border-radius: 50%;
-  box-shadow: 0 0 0px 4px white, 0 0 4px 4px #eee;
+  /*box-shadow: 0 0 0px 4px white, 0 0 4px 4px #eee;*/
+  box-shadow: 0px 0px 0px 4px rgba(212, 212, 212, 0.91), 0px 0px 4px 4px #FFF
   background-repeat: no-repeat;
   background-size: 100px 100px;
   overflow: hidden;
@@ -139,8 +140,8 @@ a {
   .tags__li.active {
     margin-right: -1px;
     color: #020202;
-    background: #fafafa;
-    border-right: 1px solid #fafafa;
+    background: #f0f0f0;
+    border-right: 1px solid #f0f0f0;
     border-radius: 5px 0 0 5px;
     position: relative;
     -webkit-transition: none;
