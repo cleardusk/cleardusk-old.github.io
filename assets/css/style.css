@@ -192,9 +192,11 @@ a {
 
   left: 0;
   bottom: 45;
+  position: absolute;
 
   font-size: 18px;
   text-align: center;
+  color: #A6A6A7;
 }
 
 #icon-email {
