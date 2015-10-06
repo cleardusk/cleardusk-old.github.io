@@ -190,9 +190,9 @@ a {
   height: 44px;
   border-top: 1px solid #525965;
 
-  left: 0;
-  bottom: 45;
   position: absolute;
+  left: 0;
+  bottom: 0;
 
   font-size: 18px;
   text-align: center;
