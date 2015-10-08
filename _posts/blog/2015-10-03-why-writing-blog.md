@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 为何写博客
-category: 思考
+category: 博客
 keywords: 博客
 ---
 
