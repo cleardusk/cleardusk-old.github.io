@@ -3,13 +3,9 @@ layout: post
 title: About me
 ---
 
-My name is Guo Jianzhu（郭建珠）. I was born in 1990s.
+My name is Guo Jianzhu（郭建珠）.
 
-I am an undergraduate in SEU(southeast university,东南大学), major in GIS(geographical information system, 地理信息系统). But I will major in PR(Pattern recognition,模式识别), a branch of CS, during master's period.
+I graduated from [Southeast University](http://www.seu.edu.cn/) with B.S. in GIS(geographical information system).
+Now, I am a PhD student at [National Laboratory of Pattern Recognition](http://www.nlpr.ia.ac.cn/nlpren/EN/volumn/home.shtml), [Chinese Academy of Sciences](http://english.cas.cn/), supervised by Associate Prof. [Zhen Lei](http://www.cbsr.ia.ac.cn/users/zlei/) and Prof. [Stan Z. Li](http://www.cbsr.ia.ac.cn/users/szli/), where I mainly work on face recognition and 3D face.
 
-My email is *guojianzhu1994@foxmail.com*, welcome to contact with me.
-
-
-
-
-
+Email: *guojianzhu1994@foxmail.com*
