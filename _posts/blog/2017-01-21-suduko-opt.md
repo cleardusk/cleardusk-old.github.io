@@ -15,28 +15,6 @@ MIP(Mixed Interger Programming) 即整数规划可以解数独，以及数独的
 
 那么如何将解数独转换为一个整数规划问题呢？就像 [*算法设计与分析*](http://bioinfo.ict.ac.cn/~dbu/AlgorithmCourses/CS711008Z/CS711008Z_2016.html) 课上卜老师说的那句：一层窗户纸捅破了一文不值。
 
-<!-- ### Modeling
-用 $A \in \mathbb{Z}^{d \times d}$ 表示数独矩阵，设一个三维的变量 $x \in \mathbb{Z}^{d \times d \times d}$ (标准数独 $d=9$)，用 $x(i,j,v)$ 表示 $A(i,j)$ 是否取值 $v$，就这个地方稍微有点 trick，如果觉得有点别扭，just accept it.
-
-$x$ 的取值为 $\{0,1\}$，$1$ 表示 $(i,j)$ 元素取值 $v$，$0$ 则不取。
-
-有了上述的这些符号，就可以形式化定义数独问题了。注意 $i,j,v \in \Omega = \{1, \dots d\}$，$S$ 表示所有规则中的子区域，即 $d$ 个 $\frac d3 \times \frac d3$ 的区域构成的集合。
-
-\begin{equation*}
-    \begin{array}{rrclcl}
-        \displaystyle \min_{x} \\
-        \textrm{s.t.} &\displaystyle \sum\limits_{v \in \Omega} x(i,j,v) & = & 1 \\
-        &\displaystyle \sum\limits_{i \in \Omega} x(i,j,v) & = & 1 \\
-        &\displaystyle \sum\limits_{j \in \Omega} x(i,j,v) & = & 1 \\
-        &\displaystyle \sum\limits_{(i,j) \in s} x(i,j,v) & = & 1 \\
-        & i,j,v & \in & \Omega \\
-        & s & \in & S \\
-        & x(i,j,v) & \in & \{0,1\} \\
-    \end{array}
-\end{equation*}
-
-看这个形式，也是一种 $0$-$1$ 规划，因为变量只能取 $0$ 或 $1$.
-**约束即数独的规则**，第一个约束表示：对 $A(i,j)$ 这个 cell，只能取一个值；第二个表示：对 $A$ 中的每列元素，特定的值 $v$ (把这里的 $v$ 看做常量) 只能取一次；第三个约束与第二个类似，将列换成行；第四个则表示：对每个子区域，值 $v$ 只能取一次。 -->
 
 ### Solving
 
