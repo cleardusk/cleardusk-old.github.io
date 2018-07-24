@@ -21,7 +21,7 @@ MIP(Mixed Interger Programming) 即整数规划可以解数独，以及数独的
 > Mixed Integer Linear Programming problems are generally solved using a linear-programming based branch-and-bound algorithm.
 
 大致思想就是将 MIP 不停地 branch 为 LP 问题，子问题的最优解构成原问题的最优解，思路还是 divide and conquer.
-![branch-and-bound.png-21kB](http://static.zybuluo.com/cleardusk/x17qzslyxmr0yrjpon75598x/branch-and-bound.png)
+<!-- ![branch-and-bound.png-21kB](http://static.zybuluo.com/cleardusk/x17qzslyxmr0yrjpon75598x/branch-and-bound.png) -->
 
 有兴趣可以去仔细研究下算法，我就直接调用 [GUROBI](http://www.gurobi.com/) 的 Python API 来求解了。
 
@@ -130,7 +130,7 @@ for v in range(n):
 ## 杀手数独
 [规则参考](https://en.wikipedia.org/wiki/Killer_sudoku?oldformat=true)，只给定同一色块的和。同样是加约束，不过跟标准数独不大一样了。
 
-![Killersudoku_color.svg-8.3kB](http://static.zybuluo.com/cleardusk/co76dusbps3dlbaq9a584o2b/Killersudoku_color.svg)
+<!-- ![Killersudoku_color.svg-8.3kB](http://static.zybuluo.com/cleardusk/co76dusbps3dlbaq9a584o2b/Killersudoku_color.svg) -->
 
 用 gurobi 求解：
 
