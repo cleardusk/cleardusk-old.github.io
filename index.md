@@ -11,3 +11,10 @@ Now, I am a Ph.D student at [National Laboratory of Pattern Recognition](http://
 GitHub: [cleardusk](https://github.com/cleardusk)
 
 Email: _guojianzhu1994@foxmail.com_ or _jianzhu.guo@nlpr.ia.ac.cn_
+
+WeChat: 
+
+![](assets/pics/qrcode_me.jpg)
+<!-- <p align="center">
+    <img src="assets/pics/qrcode_me.jpg", width="400px">
+</p> -->
