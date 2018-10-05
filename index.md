@@ -10,7 +10,7 @@ Now, I am a Ph.D student at [National Laboratory of Pattern Recognition](http://
 
 ---
 
-Resume: [中文](assets/files/resume_zh.pdf)
+Resume: [中文](assets/files/resume_zh.pdf), [Eng](assets/files/resume_en.pdf)
 
 GitHub: [cleardusk](https://github.com/cleardusk)
 
