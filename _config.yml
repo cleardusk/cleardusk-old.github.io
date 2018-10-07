@@ -10,13 +10,13 @@ kramdown:
 author: 
   name: 郭建珠
   email: guojianzhu1994@foxmail.com
-  link: http://old.guojianzhu.com
+  link: http://guojianzhu.com
   github: http://github.com/cleardusk
 
 # 站点信息
 title: 郭建珠的博客 
 description: 郭建珠的博客
-url: http://old.guojianzhu.com
+url: http://guojianzhu.com
 rss_url: /pages/atom.xml
 
 # avatar头像及Favicon
