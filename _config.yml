@@ -2,6 +2,7 @@ permalink: /:year/:month/:day/:title.html
 markdown: kramdown
 #pygments: true
 highlighter: true
+baseurl: /
 
 kramdown:
   input: GFM
@@ -31,5 +32,5 @@ favicon: /assets/pics/me.ico
 #  url: yansu.org
 
 # disqus 设置
-disqus:
-  shortname: cleardusk
+# disqus:
+#   shortname: cleardusk
